@@ -1,2 +1,14 @@
 # DNA-mimic-Research
-Using our model as an initial screen for DNA mimic proteins.
+By Chia-Yen Chien, Hsin-Hung Chou, Kai-Cheng Hsu, Bo-Cheng Liao, Hao-Ching Wang, Sun-Yuan Hsieh
+
+## Introduction
+This repository contains the source code for our paper. Our proposed method consists of three main parts: 1) centroid proteins and extract monomers； 2) extracting the basic features of proteins; 3) extracting the fingerprint features of proteins. Our goal is to conduct a preliminary screening of proteins with unknown properties to determine whether they are suspected DNA mimic proteins.
+
+## Description
+First, we use [dimer_to_single.ipynb] to extract the monomeric parts from proteins and [centroid_all_pdb.py] to center the proteins. Secondly, we use [basic_features.ipynb] to extract the basic features of the protein as parameters for later optimization and to help us determine whether it is a DNA mimic protein. [RD_PFP_algorithm.ipynb] is used to generate a different set of fingerprints for each protein, which can be optimized using the parameters extracted by [basic_features.ipynb]. Finally, we use the trained model predict_model.ipynb for the preliminary screening of proteins with unknown properties.
+
+## Datasets
+In this study, we use proteins obtained from the PDB database:
+(https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing)
+The file original_training_data is used to train our model.
+The original_predict_data is the proteins with unknown properties.
