@@ -15,5 +15,5 @@ First, we use [dimer_to_single.ipynb](https://github.com/Chien-chia-yen/DNA-mimi
 ## Datasets
 In this study, we use proteins obtained from the PDB database:
 
-The file [original_training_data](https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing) is used to train our model.
-The [original_predict_data](https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing) is the proteins with unknown properties.
+The file [original_training_data](https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing) is used to train our model.  
+The [original_predict_data](https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing) is the proteins with unknown properties.  
