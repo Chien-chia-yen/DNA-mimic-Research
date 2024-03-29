@@ -16,4 +16,18 @@ First, we use [dimer_to_single.ipynb](https://github.com/Chien-chia-yen/DNA-mimi
 In this study, we use proteins obtained from the PDB database:
 
 The file [original_training_data](https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing) is used to train our model.  
-The [original_predict_data](https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing) is the proteins with unknown properties.  
+The [original_predict_data](https://drive.google.com/drive/folders/1-NJFsq7cYBwu936RvhCyAohUImSe9ki7?usp=sharing) is the proteins with unknown properties.
+
+## Some simple descriptions for our research
+
+![image](https://github.com/Chien-chia-yen/DNA-mimic-Research/blob/main/pic/new_flowchart.jpg) 
+### Algorithm flowchart
+(A) First download DNA mimic proteins and non-DNA mimic proteins from the PDB. Then proteins features were extracted and models were built to evaluate features. The model and fingerprint features that perform better were selected. (B) Prediction of proteins with unknown properties.
+
+![image](https://github.com/Chien-chia-yen/DNA-mimic-Research/blob/main/pic/fingerprint_diff_method.jpg)  
+## Schematic illustrating the RD-PFP concept. 
+The protein SAUGI is shown, with negatively charged amino acids marked in red and the rest of the amino acids marked in white. Usually the value in the RD-PFP string is 0 when the length is 1 or 2 Angstroms.  
+
+![image](https://github.com/Chien-chia-yen/DNA-mimic-Research/blob/main/pic/predict_protein.jpg)  
+### Prediction results for proteins with unknown properties using our model. 
+The phosphate backbone of DNA and the negatively charged amino acids of proteins are highlighted in red, while the rest of the structures are colored in white.
